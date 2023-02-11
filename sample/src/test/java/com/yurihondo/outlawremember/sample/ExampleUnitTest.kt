@@ -1,4 +1,4 @@
-package com.yurihondo.outlawremember
+package com.yurihondo.outlawremember.sample
 
 import org.junit.Test
 
