@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "398595522194",
+    "firebase_url": "https://u-next-apps.firebaseio.com",
+    "project_id": "u-next-apps",
+    "storage_bucket": "u-next-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398595522194:android:eb917b726e9c99ba13704b",
+        "android_client_info": {
+          "package_name": "com.yurihondo.outlawremember.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398595522194-iv4fcvsf9ml17cgvppv2vtf2u28om2j8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAynafECqcQm0Gi4cZ9m36vIEOOOpc-0mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398595522194-iv4fcvsf9ml17cgvppv2vtf2u28om2j8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "398595522194-i75kk0mv3nl39lfd93vp5nclol1rr8bs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "jp.unext.mediaplayer",
+                "app_store_id": "882477693"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398595522194:android:e1f3521aa347b0fc13704b",
+        "android_client_info": {
+          "package_name": "jp.unext.fire.player"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398595522194-iv4fcvsf9ml17cgvppv2vtf2u28om2j8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAynafECqcQm0Gi4cZ9m36vIEOOOpc-0mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398595522194-iv4fcvsf9ml17cgvppv2vtf2u28om2j8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "398595522194-i75kk0mv3nl39lfd93vp5nclol1rr8bs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "jp.unext.mediaplayer",
+                "app_store_id": "882477693"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398595522194:android:5e9f5a52bbf7cd7e13704b",
+        "android_client_info": {
+          "package_name": "jp.unext.hms.player"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398595522194-iv4fcvsf9ml17cgvppv2vtf2u28om2j8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAynafECqcQm0Gi4cZ9m36vIEOOOpc-0mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398595522194-iv4fcvsf9ml17cgvppv2vtf2u28om2j8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "398595522194-i75kk0mv3nl39lfd93vp5nclol1rr8bs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "jp.unext.mediaplayer",
+                "app_store_id": "882477693"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398595522194:android:f2b4730d3d749d52",
+        "android_client_info": {
+          "package_name": "jp.unext.mediaplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398595522194-iv4fcvsf9ml17cgvppv2vtf2u28om2j8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAynafECqcQm0Gi4cZ9m36vIEOOOpc-0mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398595522194-iv4fcvsf9ml17cgvppv2vtf2u28om2j8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "398595522194-i75kk0mv3nl39lfd93vp5nclol1rr8bs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "jp.unext.mediaplayer",
+                "app_store_id": "882477693"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
