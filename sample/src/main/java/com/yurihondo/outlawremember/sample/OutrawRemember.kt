@@ -32,7 +32,6 @@ fun <T : Any> rememberOutlaw(
     if (registry != null) {
         val saverState = rememberUpdatedState(saver)
         val valueState = rememberUpdatedState(value)
-
         DisposableEffect(registry, finalKey) {
             val valueProvider = {
                 with(saverState.value) {

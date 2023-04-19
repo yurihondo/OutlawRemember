@@ -1,9 +1,5 @@
 package com.yurihondo.outlawremember.sample
 
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.CompositionLocalProvider
-import androidx.compose.runtime.DisposableEffect
-import androidx.compose.runtime.saveable.LocalSaveableStateRegistry
 import androidx.compose.runtime.saveable.SaveableStateRegistry
 
 fun DisposableSavedOutlawStateRegistry(
@@ -31,22 +27,5 @@ class DisposableSavedOutlawStateRegistry(
 ) : SaveableStateRegistry by saveableStateRegistry {
     fun dispose() {
         onDispose()
-    }
-}
-
-@Composable
-internal fun SaveableOutlawStateProvider(
-    id: String,
-    owner: SavedOutlawStateRegistryOwner,
-    content: @Composable () -> Unit
-) {
-    val saveableStateRegistry = DisposableSavedOutlawStateRegistry(id, owner)
-    CompositionLocalProvider(LocalSaveableStateRegistry provides saveableStateRegistry) {
-        content()
-    }
-    DisposableEffect(id, saveableStateRegistry) {
-        onDispose {
-            saveableStateRegistry.dispose()
-        }
     }
 }
